@@ -1,0 +1,94 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #fff;
+  background-color: #14161A;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100%;
+  overflow: hidden;
+}
+
+.contentRow {
+  display: flex;
+}
+
+.contentColumn {
+  flex: 50%;
+}
+
+.spiral {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.unboundLogo {
+  position: absolute;
+  top: 3.5rem;
+  left: 2.5rem;
+  height: 2.5rem;
+}
+
+.reserveView {
+  position: absolute;
+  top: 45%;
+  left: 2.5rem;
+  width: 100%;
+  height: 100%;
+  translate: 0 -15%;
+}
+
+.congrats {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: 0rem;
+}
+
+.infoText {
+  font-size: 1.2rem;
+  margin-top: -1.5rem;
+  max-width: 35rem;
+  color: #a1a2a6;
+}
+
+.fancyTag {
+  border-radius: 9999px;
+  display: inline-flex;
+  justify-content:space-between;
+  background: #2a2a2a;
+  font-family: monospace;
+  margin-bottom: 2rem;
+}
+
+.fancyText {
+  background: linear-gradient(90deg, #CCAEF0, #97CAF5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0.2rem 0.9rem;
+}
+
+.madeBy {
+  position: absolute;
+  bottom: 1rem;
+  left: 2.5rem;
+  font-size: 1rem;
+  color: #a1a2a6;
+}
